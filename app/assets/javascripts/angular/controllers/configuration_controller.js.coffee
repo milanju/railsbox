@@ -13,7 +13,7 @@ angular.module('app.rubyops').classy.controller
     @$.shareTypes = [
       label: @_t('nfs')
       id: 'nfs'
-     , 
+     ,
       label: @_t('virtualbox')
       id: ''
      ,
@@ -31,7 +31,7 @@ angular.module('app.rubyops').classy.controller
       { box: 'ubuntu/trusty64', name: 'Ubuntu Trusty 14.04 LTS 64' }
     ]
     @$.coresList = [ '1', '2', '3', '4', '5', '6', '7', '8' ]
-    
+
     rubies = [ { version: '1.8.6',    label: '1.8.6' },
                { version: '1.8.7',    label: '1.8.7' },
                { version: '1.9.1',    label: '1.9.1' },

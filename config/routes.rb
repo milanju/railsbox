@@ -4,4 +4,8 @@ Rails.application.routes.draw do
     get :default, on: :collection
   end
   root to: 'dashboard#show'
+
+  namespace :api do
+    get :configuration
+  end
 end
